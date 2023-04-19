@@ -29,6 +29,9 @@
         position: relative;
         width: 64%;
     }
+    .attribution{
+        left: 20%;
+    }
     
 }
 
@@ -70,6 +73,10 @@
     }
     .container .section-image img {
         height: auto;
+    }
+
+    .attribution{
+        left: 10%;
     }
 }
 
