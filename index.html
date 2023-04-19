@@ -18,6 +18,7 @@
 
   <link rel="stylesheet" href="src/css/reset.css">
   <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
   <style>
     .attribution {
       font-size: 11px;
@@ -51,13 +52,18 @@
 
           <input type="email" name="" id="email_" class="email" placeholder="Email Address">
           <button class="btn"> <img src="images/icon-arrow.svg"></button>
-       
+
         </div>
       </main>
 
       <div class="section-image">
 
-        <img src="images/hero-desktop.jpg" alt="">
+        <picture>
+
+          <source media="(min-width: 900px )" srcset="images/hero-desktop.jpg" sizes="">
+          <img src="images/hero-mobile.jpg" alt="Woman looking to front">
+        </picture>
+
 
       </div>
 

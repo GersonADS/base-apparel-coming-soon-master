@@ -1,0 +1,13 @@
+@media (max-width: 900px) {
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content .header{
+        order: -1;
+    }
+
+    .container .section-image{
+        order: -1;
+    }
+}
