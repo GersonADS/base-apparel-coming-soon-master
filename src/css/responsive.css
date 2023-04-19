@@ -4,11 +4,11 @@
     .content {
         min-width: 100%;
         background-image: url(' ../../images/bg-pattern-desktop.svg');
-        grid-template-columns:200px auto minmax(600px,auto);
+        grid-template-columns:300px auto minmax(600px,auto);
         background-repeat: no-repeat;
         /* background-size: cover; */
         background-position: 5px;
-        background-size: 1090px;
+        background-size: 1200px;
     }
 
     .container .header {
@@ -16,10 +16,13 @@
         grid-area: header;
     }
     .container .content .section-principal h1 {
-        margin-top: 190px;
+        margin-top: 120px;
         text-transform: uppercase;
         font-size: 5rem;
         letter-spacing: .9rem;
+    }
+    .container .content .section-principal p {
+        margin-top: 50px;
     }
     .container .content .section-principal .section-email{
         top: 90px;
@@ -58,11 +61,15 @@
         margin: auto;
         top: 30px;
         width: 320px;
+        
     }
 
     .container .section-image{
         margin-top: -120px;
         order: -1;
+    }
+    .container .section-image img {
+        height: auto;
     }
 }
 

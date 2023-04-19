@@ -54,6 +54,14 @@
     width: 64%;
 }
 
+.container .content .section-principal .section-email .alert{
+    position: absolute;
+    left: 20px;
+    bottom: -19px;
+    color: hsl(0, 93%, 68%);
+    font-size: .7rem;
+}
+
 .container .content .section-principal .section-email .email {
     width: 100%;
     padding: 1rem;
@@ -66,6 +74,7 @@
 }
 .container .content .section-principal .section-email .btn{
     position: absolute;
+    top: 0;
     right: -3px;
     box-shadow: 0 10px 10px hsla(0, 36%, 70%, 0.29);
     border: 0;
