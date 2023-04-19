@@ -10,7 +10,7 @@
 .content {
     display: grid;
     grid-template-columns:150px 50px minmax(600px,auto);
-    grid-template-rows: 100px;
+    grid-template-rows: minmax(100px,1000px);
     grid-template-areas: ". header header image"
     ". principal principal image"
     ;
@@ -79,10 +79,9 @@
 
 .container .section-image {
     grid-area: image;
-    right: auto;
 }
 
-.container .section-image > img{
-    height: 100%;
-    width: 100%;
+.container .section-image img {
+    height:100%;
 }
+
