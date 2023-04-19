@@ -9,8 +9,8 @@
 
 .content {
     display: grid;
-    grid-template-columns:150px 50px minmax(600px,auto);
-    grid-template-rows: minmax(100px,1000px);
+    grid-template-columns:150px auto minmax(600px,auto);
+    grid-template-rows: minmax(100px,120px);
     grid-template-areas: ". header header image"
     ". principal principal image"
     ;
